@@ -1,12 +1,16 @@
 [tool.poetry]
 name = "pysigtool"
-version = "0.1.1"
-description = ""
+version = "0.1.2"
+description = "Extract digital signatures contained in a PE file."
+license = "Apache-2.0"
 readme = "README.md"
+homepage = "https://github.com/kohnakagawa/pysigtool"
+repository = "https://github.com/kohnakagawa/pysigtool"
 authors = ["Koh M. Nakagawa <tsunekou1019@gmail.com>"]
+include = ["LICENSE"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.6"
 lief = "^0.10.1"
 
 [tool.poetry.scripts]
